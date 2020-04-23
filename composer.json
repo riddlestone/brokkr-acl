@@ -38,5 +38,10 @@
             "phpmd src ansi phpmd.xml",
             "phpunit"
         ]
+    },
+    "extra": {
+        "laminas": {
+            "component": "Riddlestone\\Brokkr\\Acl"
+        }
     }
 }
