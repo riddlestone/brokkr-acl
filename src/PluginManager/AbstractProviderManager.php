@@ -9,7 +9,7 @@ abstract class AbstractProviderManager extends AbstractPluginManager
     /**
      * @var string[]
      */
-    protected $providers;
+    protected $providers = [];
 
     /**
      * @param array $config
